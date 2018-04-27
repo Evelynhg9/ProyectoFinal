@@ -1,0 +1,84 @@
+/* 
+    Created on : 25/04/2018
+*/
+header{
+    background-color: blue;
+}
+#contenedor-logo{
+    width: 19%;
+    height: 130px;
+    position: relative;
+    margin-left: 90px;
+    float: left;
+}
+#logo{
+    width: 100%;
+    height: 100px;
+    box-shadow: 2px 4px 10px -2px rgba(0,0,0,0.75);
+    float: left;
+}
+.letra{
+    font-size: large;
+}
+#contenedor-h1{
+    width: 70%;
+    height: 120px;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    float: left;
+}
+main{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 39px;
+    margin-right: 60px;
+    padding-left: 20px;
+    float: right;
+    border-left-style: solid;
+    border-left-color: gray;
+    border-left-width: 5px;
+    border-top-style: solid;
+    border-top-color: gray;
+    border-top-width: 5px;
+    
+}
+.domicilio{
+    margin-top: 0px;
+}
+h5{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.folio{
+    color: red; 
+}
+.negro{
+    color: black;
+}
+
+.azul{
+    color: blue;
+}
+
+.caja{
+    width: 85px;
+}
+.caja1{
+    width: 200px;
+}
+#antecedente-escuea{
+    margin-top: 0px;
+}
+#registro-escuela{
+    margin-top: 0px;
+}
+#escuela{
+    width: 87.5%;
+}
+
+#nueva-escuela{
+    width: 60%;
+}
+

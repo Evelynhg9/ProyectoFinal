@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Solicitud de registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./CSS/estilos.css">
+    </head>
+    <body>
+        <header id="encabezado">
+            <div id="contenedor-logo">
+                <img src="./img/logo_ibero.jpg" id="logo">
+                <p><strong class="letra">Direcci&oacute;n de Servicios Escolares</strong></p>
+            </div>
+            <div id="contenedor-h1">
+                <h1>Solicitud de Registro</h1>
+            </div>
+        </header>
+        
+        <main>
+            <form action="#" enctype="multipart/form-data" method="GET" novalidate="" autocomplete="on">
+                <section class="domicilio">
+                    <h5>DOMICILIO DEL ASPIRANTE</h5>
+                    <p class="folio"><b class="negro">Folio:</b>&emsp;&emsp;&emsp;186854&emsp;&emsp;&emsp;Anota este n&uacute;mero de folio, porque te lo pediremos en otros momentos de tu registro</p>
+                    <p class="azul"><u>Si no conoces tu c&oacute;digo postal, consultalo aqu&iacute; (ser&aacute;s remitido a un sitio externo)</u></p>
+                    <label><b>C&oacute;digo Postal:</b></label>
+                    <input class="caja" type="text"/>&emsp;&emsp;&emsp;
+                    <label><b>Estado</b></label>
+                    <select>
+                        <option>Selecciona un estado</option>
+                        <option>CDMX</option>
+                        <option>Guadalajar</option>
+                        <option>Campeche</option>
+                    </select>&emsp;&emsp;&emsp;
+                    <label><b>Municipio</b></label>
+                    <select>
+                        <option>Selecciona un municipio</option>
+                        <option>Benito Ju&aacute;rez</option>
+                        <option>Puebla</option>
+                        <option>Tijuana</option>
+                    </select><br><br><br>
+                    <label><b>Colonia</b></label>
+                    <select>
+                        <option></option>
+                        <option>Puente Blanco</option>
+                        <option>Benito Ju&aacute;rez</option>
+                        <option>Agrarista</option>
+                    </select><br><br><br>
+                    <label><b>Calle</b></label>
+                    <input class="caja1" type="text"/>&emsp;&emsp;&emsp;
+                    <label><b>N&uacute;mero</b></label>
+                    <input class="caja" type="text"/>&emsp;&emsp;&emsp;
+                    <label><b>Edificio</b></label>
+                    <input class="caja" type="text"/>&emsp;&emsp;&emsp;
+                    <label><b>Departamento</b></label>
+                    <input class="caja" type="text"/><br><br><br>
+                    <label><b>Transporte para asistir a la UIA:</b></label>
+                    <select>
+                        <option>AUTOMOVIL PROPIO</option>
+                        <option>CAMI&Oacute;N ESCOLAR</option>
+                        <option>TRANSPORTE P&Uacute;BLICO   </option>
+                        <option>A PIE</option>
+                    </select><br><br>
+                </section>
+                <section id="antecedente-escuela">
+                    <h5>ANTECEDENTES AC&Aacute;DEMICOS</h5>
+                    <input type="text" id="escuela" placeholder="Institucion de procedencia">
+                    <br>
+                    <a href="https://www.google.com/" id="registro">+¿Instituci&oacute;n no encontrada?</a>
+                </section>
+                <section id="registro-escuela">
+                    <h5>REGISTRO NUEVA INSTITUCI&Oacute;N</h5>
+                    <label><b>Nombre oficial de la instituci&oacute;n de procedencia:</b></label>
+                    <input id="nueva-escuela" type="text"/><br><br><br>
+                    <label><b>Campus</b></label>
+                    <input id="campus" type="text" class="caja1"><br><br><br>
+                </section>
+            </form>
+        </main>
+    </body>
+</html>
+
